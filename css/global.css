@@ -1,6 +1,6 @@
 :root {
-  --clr-main: #210002;
-  --clr-accent: #ffaf00;
+  --clr-main: rgba(33, 0, 2, 1);
+  --clr-accent: rgba(255, 175, 0, 1);
   --font-main: "Verlag A", "Verlag B", "Verlag", "Arial", system-ui, sans-serif;
 }
 
@@ -14,18 +14,19 @@
 }
 
 html {
+  background-color: var(--clr-main);
+  color: var(--clr-accent);
   font-family: var(--font-main);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
-  color: var(--clr-accent);
-  background-color: var(--clr-main);
 }
 
 img {
   font-style: italic;
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
   shape-margin: 0.75rem;
 }
 

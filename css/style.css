@@ -1,0 +1,17 @@
+.parallax {
+  display: grid;
+  grid-template-areas: "stack";
+  overflow: hidden;
+}
+
+.parallax > * {
+  grid-area: stack;
+  animation: parallax linear;
+  animation-timeline: scroll(root);
+}
+
+@keyframes parallax {
+  to {
+    transform: translateY(calc(var(--parallax-speed) * 200px));
+  }
+}
