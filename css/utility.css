@@ -24,3 +24,25 @@
 .uppercase {
   text-transform: uppercase;
 }
+
+.button {
+  display: block;
+  text-align: center;
+  max-width: 325px;
+  width: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 3px;
+  background: url(/assests/banner_transparent_left.png) no-repeat left top /
+      contain,
+    url(/assests/banner_transparent_right.png) no-repeat right top / contain
+      var(--_button-background);
+  color: var(--_button-text);
+}
+
+.button:where(:hover, :focus) {
+  color: var(--_button-hover-text, initial);
+  background-color: var(--_button-hover-background);
+}
