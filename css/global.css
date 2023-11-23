@@ -1,0 +1,14 @@
+:root {
+  --clr-main: #210002;
+  --clr-accent: #ffaf00;
+  --font-main: "Verlag A", "Verlag B", "Verlag", "Arial", system-ui, sans-serif;
+}
+
+html {
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  color: var(--clr-accent);
+  background-color: var(--clr-main);
+}
