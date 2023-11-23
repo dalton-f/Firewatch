@@ -1,0 +1,26 @@
+/* TO DO: organise into sections */
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.hide-overflow {
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
