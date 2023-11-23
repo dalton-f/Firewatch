@@ -4,13 +4,16 @@
   display: grid;
   grid-template-areas: "stack";
   overflow: hidden;
+  background: var(--clr-accent);
 }
 
 .parallax > * {
   grid-area: stack;
   animation: parallax linear;
-  animation-timeline: scroll();
+  animation-timeline: scroll(root);
 }
+
+/* TODO: update and fix these speeds */
 
 .parallax__layer0 {
   --parallax-speed: 10;
@@ -74,6 +77,8 @@
   grid-template-columns: repeat(2, 325px);
   gap: 40px 50px;
 }
+
+/* TODO: rename this class and make a real utility css file */
 
 .button {
   display: block;
