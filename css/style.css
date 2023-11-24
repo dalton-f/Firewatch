@@ -74,6 +74,11 @@
   --_button-hover-background: white;
   grid-template-columns: repeat(2, 325px);
   gap: 40px 50px;
+  margin-bottom: 90px;
+}
+
+.content__ctas .button {
+  height: 32px;
 }
 
 /* TO DO: conversion to REMS */

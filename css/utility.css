@@ -26,7 +26,8 @@
 }
 
 .button {
-  display: block;
+  display: grid;
+  place-items: center;
   text-align: center;
   max-width: 325px;
   width: 100%;
