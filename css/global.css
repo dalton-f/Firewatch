@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Verlag";
+  src: url("/assests/font/Verlag-Book.otf");
+}
+
 :root {
   --clr-main: rgba(33, 0, 2, 1);
   --clr-accent: rgba(255, 175, 0, 1);
