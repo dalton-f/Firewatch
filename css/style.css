@@ -86,25 +86,31 @@
   height: 32px;
 }
 
-/* TO DO: conversion to REMS */
-
-.content__subtitle {
-  font-size: 30px;
-  text-align: left;
-  line-height: 45px;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-/* TO DO: make 325px a repeated variable */
+/* TO DO: tweak maxwidths */
 
 .content__copy {
-  display: grid;
-  grid-template-columns: repeat(2, 325px);
+  max-width: 700px;
   margin: 0 auto;
   text-align: left;
-  gap: 50px;
   font-size: 20px;
   font-weight: 300;
   line-height: 2rem;
+}
+
+/* TO DO: conversion to REMS */
+
+.content__subtitle {
+  max-width: 680px;
+  font-size: 30px;
+  text-align: left;
+  line-height: 45px;
+  margin: 120px auto 0;
+}
+
+/* TO DO: fix positionings */
+
+.content__body {
+  /* display: flex;
+  gap: 50px; */
+  margin-top: 50px;
 }
