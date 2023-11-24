@@ -64,8 +64,13 @@
 
 .content__title {
   font-weight: 300;
+  font-size: 34px;
   letter-spacing: 10px;
   padding-bottom: 50px;
+}
+
+.content__title span {
+  font-size: 28px;
 }
 
 .content__ctas {
