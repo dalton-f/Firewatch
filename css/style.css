@@ -159,3 +159,20 @@
   letter-spacing: 4px;
   margin-top: 20px;
 }
+
+.content__tech-support {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.content__tech-support .button {
+  --_button-background: rgb(151, 55, 0);
+  --_button-text: var(--clr-main);
+  --_button-hover-background: var(--clr-accent);
+  height: 25px;
+  max-width: 380px;
+  flex-shrink: 0;
+}
