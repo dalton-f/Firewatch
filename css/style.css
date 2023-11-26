@@ -89,7 +89,7 @@
 /* TO DO: tweak maxwidths */
 
 .content__copy {
-  max-width: 680px;
+  max-width: 700px;
   margin: 0 auto;
   text-align: left;
   font-size: 20px;
@@ -121,11 +121,19 @@
   display: grid;
   grid-template-columns: repeat(2, 325px);
   gap: 50px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .content__copy-ctas {
   display: flex;
   gap: 48px;
   margin-top: 42px;
+}
+
+.content__gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 423px);
+  max-width: 900px;
+  gap: 40px 50px;
+  margin-top: 75px;
 }
