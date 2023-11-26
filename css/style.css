@@ -166,6 +166,8 @@
   justify-content: center;
   gap: 1rem;
   margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .content__tech-support .button {
@@ -175,4 +177,38 @@
   height: 25px;
   max-width: 380px;
   flex-shrink: 0;
+}
+
+.footer {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer__translate {
+  color: var(--clr-accent);
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  font-size: 15px;
+  color: rgb(151, 55, 0);
+  letter-spacing: 2px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-block: 50px;
+}
+
+.footer__companies {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding-bottom: 50px;
+}
+
+.footer__companies img {
+  height: 69px;
+  background: rgb(151, 55, 0);
 }
