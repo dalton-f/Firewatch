@@ -137,3 +137,25 @@
   gap: 40px 50px;
   margin-top: 75px;
 }
+
+.content__testimonial {
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 52px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--clr-accent);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+  max-width: 520px;
+}
+
+.content__testimonial-author {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(151, 55, 0);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 20px;
+}
