@@ -89,28 +89,43 @@
 /* TO DO: tweak maxwidths */
 
 .content__copy {
-  max-width: 700px;
+  max-width: 680px;
   margin: 0 auto;
   text-align: left;
   font-size: 20px;
   font-weight: 300;
   line-height: 2rem;
+  margin-top: 120px;
+}
+
+.content__copy .button {
+  --_button-background: rgb(151, 55, 0);
+  --_button-text: var(--clr-main);
+  --_button-hover-background: var(--clr-accent);
+  height: 25px;
 }
 
 /* TO DO: conversion to REMS */
 
 .content__subtitle {
-  max-width: 680px;
   font-size: 30px;
   text-align: left;
   line-height: 45px;
-  margin: 120px auto 0;
+  margin: 0 auto;
 }
 
 /* TO DO: fix positionings */
 
 .content__body {
-  /* display: flex;
-  gap: 50px; */
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(2, 325px);
+  gap: 50px;
   margin-top: 50px;
+}
+
+.content__copy-ctas {
+  display: flex;
+  gap: 48px;
+  margin-top: 42px;
 }
