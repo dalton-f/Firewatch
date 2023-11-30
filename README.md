@@ -95,4 +95,4 @@ Project Link: [https://github.com/dalton-f/Firewatch/](https://github.com/dalton
 [stars-url]: https://github.com/dalton-f/Firewatch/stargazers
 [issues-shield]: https://img.shields.io/github/issues/dalton-f/Firewatch.svg?style=for-the-badge
 [issues-url]: https://github.com/dalton-f/Firewatch/issues
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: screenshot.png
