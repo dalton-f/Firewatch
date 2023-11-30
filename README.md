@@ -96,7 +96,3 @@ Project Link: [https://github.com/dalton-f/Firewatch/](https://github.com/dalton
 [issues-shield]: https://img.shields.io/github/issues/dalton-f/Firewatch.svg?style=for-the-badge
 [issues-url]: https://github.com/dalton-f/Firewatch/issues
 [product-screenshot]: images/screenshot.png
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
